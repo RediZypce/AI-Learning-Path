@@ -1,63 +1,36 @@
-# Tennis Winnings Prediction Using Multiple Regression
+# Manhattan Rent Prediction Using Multiple Linear Regression
 
-# Project Overview
-This project involves predicting tennis winnings using multiple regression analysis. The dataset used for this analysis is "tennis_stats.csv," which contains various features related to tennis player statistics. These features are utilized to build a multiple regression model to predict a player's winnings. [Check it out!](Tennis_Aces.ipynb)
+## Overview
 
-## Dataset
-The dataset, "tennis_stats.csv," consists of the following features:
+This project aims to predict rent prices for apartments in Manhattan using multiple linear regression. The dataset utilized for this analysis was generously provided by StreetEasy, a reputable real estate company, ensuring data reliability and accuracy. [Let's get started](Manhattan_Rent.ipynb)
 
-* Player
-* Year
-* FirstServe
-* FirstServePointsWon
-* FirstServeReturnPointsWon
-* SecondServePointsWon
-* SecondServeReturnPointsWon
-* Aces
-* BreakPointsConverted
-* BreakPointsFaced
-* BreakPointsOpportunities
-* BreakPointsSaved
-* DoubleFaults
-* ReturnGamesPlayed
-* ReturnGamesWon
-* ReturnPointsWon
-* ServiceGamesPlayed
-* ServiceGamesWon
-* TotalPointsWon
-* TotalServicePointsWon
-* Wins
-* Losses
-* Winnings
-* Ranking
+## Project Objectives
 
-## Project Goals
-The main goals of this project are as follows:
+Utilize multiple linear regression to create a predictive model for Manhattan rent prices.
+Analyze various features that can influence rent prices, including the number of bedrooms, bathrooms, square footage, proximity to subway stations, floor level within the building, age of the building, and amenities such as a doorman, gym, and dishwasher.
 
-To create a predictive model that can estimate a tennis player's winnings based on their statistics.
-To identify which features have the most significant impact on a player's winnings.
-To provide insights into the relationship between various player statistics and their winnings.
+## Features
+The dataset includes the following pertinent features:
 
-## How to Use the Code
-Data Preparation: Before running the code, make sure to have the "tennis_stats.csv" dataset in the same directory as your code or specify the correct path to the dataset.
+* Number of bedrooms
+* Number of bathrooms
+* Square footage of the apartment
+* Proximity to subway stations
+* Floor level within the building
+* Age of the building
+* Amenities such as a doorman, gym, dishwasher, and more.
 
-## Results
-The project's results will include:
+## How to Use
 
-Predicted winnings for the tennis players in the dataset.
-Model evaluation metrics (e.g., Mean Absolute Error, R-squared) to assess the model's performance.
-Visualizations illustrating the relationships between different features and winnings.
-Future Improvements
-To enhance this project, consider the following future improvements:
+To make rent predictions for your specific apartment in Manhattan:
 
-## Collect more data to improve the accuracy of predictions.
-Experiment with different regression algorithms and hyperparameter tuning for better model performance.
-Incorporate additional features or external data sources to make more accurate predictions.
-Develop a user-friendly web application or interface to allow users to input player statistics and obtain predicted winnings.
+* Clone this repository to your local machine.
+* Install the required libraries using pip install -r requirements.txt.
+* Run the provided Python script or Jupyter Notebook.
+* Input the feature values for your apartment.
 
-## Contact Information
-If you have any questions, suggestions, or feedback regarding this project, please feel free to contact:
+__The model will provide a rent prediction based on your input.__
 
-Redi Zypce
-[https://twitter.com/RediZypce]
+# Conclusion
 
+This project offers valuable insights into the factors influencing Manhattan rent prices and provides a predictive model that can assist individuals and real estate professionals in estimating rent values based on property characteristics. Understanding the relationships between features and rent is crucial in Manhattan's competitive real estate market.
